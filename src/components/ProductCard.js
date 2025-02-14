@@ -22,7 +22,7 @@ export function ProductCard(){
 
     return(
   
-      <article>
+      <article style={{border: "2px solid black", borderRadius:"8px",padding:"15px", textAlign:"center"}}>
         <h2>{product.title}</h2>
         <p>To use an iPhone, you'll need an Apple ID, internet access, and enough storage space. You can also sync your iPhone to a computer using iTunes or the Finder. </p>
         <img src={product.imgSrc}/>
@@ -30,7 +30,7 @@ export function ProductCard(){
   
         <h2>Specifications</h2>
   
-        <ul>
+        <ul style={{listStyle : "none"}}>
           <li>{product.specifications[0]}</li>
           <li>{product.specifications[1]}</li>
           <li>{product.specifications[2]}</li>
@@ -48,27 +48,28 @@ export function ProductCard(){
        <div className="sub-division1">
 
 
-        <img src="/images/iphone.jpeg"/>
+        <img src="/images/iphone.jpeg"  className="myimg"/>
         
         <h2>iPhone 14</h2>
         <p>Includes crash detection that calls emergency services if it senses a car accident </p>
-        <button>See More</button>
+        <button className="mybtn">See More</button>
        </div>
   
   
        <div className="sub-division1">
         
+       <img src="/images/iphone2.png" className="myimg"/>
         <h2>iPhone 14</h2>
         <p>Includes crash detection that calls emergency services if it senses a car accident </p>
-        <button>See More</button>
+        <button className="mybtn">See More</button>
        </div>
   
   
        <div className="sub-division1">
-        
+       <img src="/images/iphone3.jpeg"  className="myimg"/>
         <h2>iPhone 14</h2>
         <p>Includes crash detection that calls emergency services if it senses a car accident </p>
-        <button>See More</button>
+        <button className="mybtn">See More</button>
        </div>
   
   
