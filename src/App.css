@@ -5,3 +5,22 @@
   padding: 64px 16px 16px 64px;
 }
 
+
+#main{
+  display: flex;
+}
+
+.sub-division1{
+  background-color: rgb(219, 181, 13);
+  padding: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px yellow;
+}
+
+
+button{
+  background-color: rgb(34, 89, 182);
+  color: rgb(214, 37, 37);
+
+}
